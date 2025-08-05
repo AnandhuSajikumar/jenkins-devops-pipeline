@@ -1,8 +1,8 @@
 pipeline {
     agent any
-/*
+
     stages {
-        stage('Clone Repo') {
+/*        stage('Clone Repo') {
             steps {
                 git branch: 'main', url: 'https://github.com/AnandhuSajikumar/jenkins-devops-pipeline.git'
             }
